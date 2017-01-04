@@ -1,0 +1,11 @@
+---
+buildName: "t3d"
+links:
+  Git: "http://gogs/gogsadmin/t3d.git"
+  Job: "http://192.168.64.207:30043/job/t3d"
+  Staging: "http://10.0.0.174:80/kubernetes/pods?namespace=default-staging"
+  Testing: "http://10.0.0.174:80/kubernetes/pods?namespace=default-testing"
+environments:
+  Testing: "default-testing"
+  Staging: "default-staging"
+useLocalFlow: true
